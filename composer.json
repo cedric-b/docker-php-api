@@ -10,23 +10,25 @@
     },
     "require": {
         "php": ">=7.1",
-        "jane-php/open-api-runtime": "^4.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^6.0",
-        "friendsofphp/php-cs-fixer": "^2.9",
-        "jane-php/open-api": "^4.0",
-        "jane-php/json-schema": "^4.0",
-        "amphp/artax": "^3.0"
+        "jane-php/open-api-runtime": "^6.3"
     },
     "suggest": {
         "amphp/artax": "To use the async api"
     },
     "extra": {
         "branch-alias": {
-            "4.1.36": "4.1.36.x-dev"
+            "6.1.41": "6.1.41.x-dev"
+        },
+        "symfony": {
+            "allow-contrib": "true"
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require-dev": {
+        "jane-php/json-schema": "^6.3",
+        "friendsofphp/php-cs-fixer": "^2.18",
+        "jane-php/open-api-2": "^6.3",
+        "amphp/artax": "^3.0"
+    }
 }

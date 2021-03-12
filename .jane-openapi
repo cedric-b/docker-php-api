@@ -1,9 +1,7 @@
 <?php
 
 return [
-    'directory' => 'src',
+    'openapi-file' => __DIR__ . '/v1.41.yaml',
     'namespace' => 'Docker\\API',
-    'openapi-file' => __DIR__ . '/docker-swagger.yaml',
-    'async' => true,
-    'strict' => false,
+    'directory' => 'src'
 ];
